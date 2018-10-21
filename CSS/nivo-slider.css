@@ -9,13 +9,15 @@
  
 /* The Nivo Slider styles */
 .nivoSlider {
-	position:relative;
+	position:absolute;
 	width:100%;
 	height:auto;
 	overflow: hidden;
 	border-radius: 10px;
-	margin-top: 10px;
-}
+	margin-top: 100px;
+	}
+
+
 .nivoSlider img {
 	position:absolute;
 	top:0px;

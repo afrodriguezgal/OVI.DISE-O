@@ -5,6 +5,24 @@
   background: white,
 }
 
+/*font-family: 'Open Sans', sans-serif;*/
+
+.contenidos {
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  position: relative;
+  background: black;
+  }
+  
+  header {
+    width: auto;
+    height: auto;
+    background: rgba(0,0,0,0.2);
+  }
+
+  
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -12,6 +30,8 @@ ul {
   overflow: hidden;
   background-color: #d4a402;
   border-radius: 10px;
+  display: block;
+  box-shadow: 0 0 10px white inset;
 }
 
 li {
@@ -25,16 +45,22 @@ li a, .dropbtn {
   padding: 14px 16px;
   text-decoration: none;
   border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+ box-shadow: 0 0 10px white inset;
+ 
+    
 }
 
 li a:hover, .dropdown:hover .dropbtn {
   background-color: black;
   border-radius: 10px;
-}
+  font-family: 'Open Sans', sans-serif;
+  }
 
 li.dropdown {
   display: inline-block;
   border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .dropdown-content {
@@ -46,6 +72,7 @@ li.dropdown {
   z-index: 1;
   text-align: center;
   border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .dropdown-content a {
@@ -56,6 +83,7 @@ li.dropdown {
   text-align: left;
   text-align: center;
   border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .dropdown-content a:hover {background-color: #d4a402}
@@ -77,12 +105,14 @@ li.dropdown {
   float: right; 
   }
 
-  #titulo{
+  #titu{
     
     display: inline-block;
     vertical-align: top;
-    
-    
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+    text-align: center;
     
   }
 
@@ -103,21 +133,21 @@ aside {
   height: auto;
   float: right;
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 80px;
   border-radius: 10px;
 }
 
-footer {
-  display: block;
-  position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    margin-top: 20px;
-    text-align: center;
-    border-radius: 3px;
-}
+footer, .push {
+  height: 4em;
+  }
 
+  #subtitulo{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
 
