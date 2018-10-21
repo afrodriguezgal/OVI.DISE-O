@@ -11,6 +11,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #d4a402;
+  border-radius: 10px;
 }
 
 li {
@@ -23,14 +24,17 @@ li a, .dropbtn {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border-radius: 10px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
   background-color: black;
+  border-radius: 10px;
 }
 
 li.dropdown {
   display: inline-block;
+  border-radius: 10px;
 }
 
 .dropdown-content {
@@ -41,6 +45,7 @@ li.dropdown {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   text-align: center;
+  border-radius: 10px;
 }
 
 .dropdown-content a {
@@ -50,13 +55,69 @@ li.dropdown {
   display: block;
   text-align: left;
   text-align: center;
+  border-radius: 10px;
 }
 
 .dropdown-content a:hover {background-color: #d4a402}
 
 .dropdown:hover .dropdown-content {
   display: block;
+  border-radius: 10px;
 }
 
-.
+.contadorvisitas {
+  
+  float: left;
+  width: 33.33%; 
+  padding: 5px; 
+  
+  }
+
+.twitter-timeline {
+  float: right; 
+  }
+
+  #titulo{
+    
+    display: inline-block;
+    vertical-align: top;
+    
+    
+    
+  }
+
+
+/*section{
+  width: 920px;
+  background: black;
+  height:600px;
+  float: left;
+  margin-top: 10px;
+  border-radius: 10px;
+}*/
+
+
+aside {
+  width: auto;
+  background: gray;
+  height: auto;
+  float: right;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  display: block;
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+
 
