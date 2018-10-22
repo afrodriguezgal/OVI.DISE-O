@@ -1,20 +1,10 @@
-*{
 
-background: white;
-padding: 0px;
-margin: 0px;
-}
-/*titulo general*/
-#titulo {
-
-    color: black;
-}
-
-/*titulos*/
-#TI { 
-
-    color: black;
-    text-align:  center;    
+.contenido2 {
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    position: relative;
+    background: white;
 }
 
 /*texto*/
@@ -32,12 +22,11 @@ p {
   border: 5px solid black;
 }*/
 
-#titulo{
+#tituloinfogeneral{
+    text-align: center;
     display: inline-block;
     vertical-align: top;
-    color: white;
+    color: black;
   }
 
-div.TI{
-    color: blueviolet; 
-}
+ 
