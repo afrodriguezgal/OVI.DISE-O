@@ -8,7 +8,7 @@
 /*font-family: 'Open Sans', sans-serif;*/
 
 .contenidos {
-  width: 1000px;
+  width: auto;
   height: auto;
   margin: auto;
   position: relative;
@@ -137,17 +137,104 @@ aside {
   border-radius: 10px;
 }
 
-footer, .push {
-  height: 4em;
+
+footer {
+
+  /*background: gray;
+  width: auto;
+  height: auto;
+  float: left;
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  margin: auto;
+  text-align: center;*/
+
+  border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    float: none;
+    overflow: hidden;
+    padding: 8px 0;
+    width: 100%;
+    background: gray;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    /*width: 100%;
+    background: gray;*/
+}
+
+
+.footContact {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #FFF;
+  text-align: center;
+}
+
+.footContactTextES {
+
+ width: 36%;
+  float: left;
+  font-size: 11px;
+  text-align: justify;
+  line-height: 14px;
+}
+
+.footContactTextEN {
+
+  width: 36%;
+  float: left;
+  font-size: 11px;
+  text-align: justify;
+  line-height: 14px;
+}
+
+.footContactLogoUNAD{
+  width: 27.55%;
+  padding-left: 1.45%;
+  float: left;
+  text-align: left;
+}
+.autor
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #FFF;
+  text-align: center;
+}
+#logoUNADInferior{
+  
+  width: 162px;
+  height: 39px;}
+
+  .imageSprite{
+    display: inline-block;
+    overflow: hidden;
+    color: transparent;
   }
+  /*#unadlogofooter{
+    
+    
+    width: 162px;
+    height: 39px;
+  }*/
+
 
   #subtitulo{
     color: white;
     font-family: 'Open Sans', sans-serif;
-    margin-left: 10px;
-    text-align: center;
+    margin-left: 70px;
+    text-align: auto;
     font-size: 60px;
-    font-family: 'Open Sans', sans-serif;
   }
   
 
