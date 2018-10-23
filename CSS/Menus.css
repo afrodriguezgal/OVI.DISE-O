@@ -2,7 +2,7 @@
 
   padding: 0px;
   margin: 0px;
-  background: white,
+  background: black,
 }
 
 /*font-family: 'Open Sans', sans-serif;*/
@@ -21,15 +21,37 @@
     background: rgba(0,0,0,0.2);
   }
 
-  
+/*titulo1*/
 
-ul {
+#logoytitulo {
+  padding: 20px;
+  margin: 0px;
+  background: black;
+}
+
+.contadorvisitas {
+  
+  float: right;
+  width: 8.33%; 
+  padding: 0px;
+  
+  }
+
+  #titu{
+  color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background: black;
+  }
+/*titulo1*/
+
+.Menu_p ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #d4a402;
-  border-radius: 10px;
+  border-radius: 0px;
   display: block;
   box-shadow: 0 0 10px white inset;
 }
@@ -39,16 +61,17 @@ li {
 }
 
 li a, .dropbtn {
-  display: inline-block;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  border-radius: 10px;
-  font-family: 'Open Sans', sans-serif;
- box-shadow: 0 0 10px white inset;
- 
-    
+display: inline-block;
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+border-radius: 10px;
+font-family: 'Open Sans', sans-serif;
+box-shadow: 0 0 10px white inset;
+margin-left:8px;  
+margin-top: 8px;
+margin-bottom: 8px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -68,10 +91,10 @@ li.dropdown {
   position: absolute;
   background-color: black;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 0px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -93,28 +116,12 @@ li.dropdown {
   border-radius: 10px;
 }
 
-.contadorvisitas {
-  
-  float: left;
-  width: 33.33%; 
-  padding: 5px; 
-  
-  }
 
 .twitter-timeline {
   float: right; 
   }
 
-  #titu{
-    
-    display: inline-block;
-    vertical-align: top;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    margin-left: 10px;
-    text-align: center;
-    
-  }
+ 
 
 
 /*section{
@@ -214,7 +221,8 @@ footer {
 #logoUNADInferior{
   
   width: 162px;
-  height: 39px;}
+  height: 39px;
+}
 
   .imageSprite{
     display: inline-block;
