@@ -6,18 +6,20 @@
   }
   
   div#imagen {
-    width: 300px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
     background-size: cover;
     background-image: url("http://www.freejpg.com.ar/asset/900/08/0831/F100010643.jpg");
     margin: 30px auto;
+    float: left;
+    margin-inline-start: 10px;
   }
   
   div#info {
     position:absolute;
     overflow:hidden;
-    width: 300px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
     background-color: rgba(31, 31, 31, 0.9);
     opacity:0;
     transition: opacity 0.3s;
@@ -28,11 +30,13 @@
   }
   
   p#headline {
-    position: absolute;
+   
     font-size: 1.5rem;
     margin-left: -75px;
     margin-top: 15px;
     transition: margin-left 0.3s;
+    text-align: left;
+    
   }
   
   div#imagen:hover p#headline {
@@ -42,21 +46,26 @@
   p#descripcion {
     font-size: 1rem;
     text-align: center;
-    margin-top: 200px;
-    transition: margin-top 0.4s;
+    margin-top: 500px;
+    transition: margin-top 1.0s;
+    text-align: justify;
+    text-align: initial;   
   }
   
   div#imagen:hover p#descripcion {
     margin-top: 75px;
   }
   
-
+/*2*/
   div#imagen2 {
-    width: 300px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
     background-size: cover;
     background-image: url("http://www.freejpg.com.ar/asset/900/08/0831/F100010643.jpg");
     margin: 30px auto;
+    float: right;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
   }
 
   div#imagen2:hover div#info {
@@ -70,13 +79,15 @@
     margin-top: 75px;
   }
 
-
+/*3*/
   div#imagen3 {
-    width: 300px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
     background-size: cover;
     background-image: url("http://www.freejpg.com.ar/asset/900/08/0831/F100010643.jpg");
     margin: 30px auto;
+    float: left;
+    margin-inline-start: 10px;
   }
 
   div#imagen3:hover div#info {

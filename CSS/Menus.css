@@ -122,6 +122,7 @@ li.dropdown {
 
 .twitter-timeline {
   float: right; 
+  margin-inline-end: 10px; 
   }
 
  
