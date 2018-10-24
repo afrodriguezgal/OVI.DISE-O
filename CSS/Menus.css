@@ -7,7 +7,7 @@
 
 /*font-family: 'Open Sans', sans-serif;*/
 
-.contenidos {
+.Contenidos {
   width: auto;
   height: auto;
   margin: auto;
@@ -24,17 +24,20 @@
 /*titulo1*/
 
 #logoytitulo {
-  padding: 20px;
-  margin: 0px;
-  background: black;
+  width: 20%;
+  
+}
+
+.contenidoup{
+  justify-content: center;
+  margin-top: 2%;
 }
 
 .contadorvisitas {
   
   float: right;
   width: 8.33%; 
-  padding: 0px;
-  
+  display: center;  
   }
 
   #titu{
@@ -245,4 +248,5 @@ footer {
     font-size: 60px;
   }
   
+
 
